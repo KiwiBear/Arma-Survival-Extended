@@ -1,0 +1,49 @@
+onLoadMission = "Survival Extended";
+onLoadMissionTime = 0;
+onLoadIntroTime = 0;
+loadScreen = "";
+respawn = 3;
+enableTeamSwitch = 0;
+respawnButton = 0;
+respawnDelay = 1;
+respawnDialog = 0;
+respawnOnStart = 1;
+ReviveMode = 1;
+ReviveUnconsciousStateMode = 2;
+ReviveRequiredItems = 2;
+ReviveRequiredItemsFakConsumed = 1;
+ReviveMedicSpeedMultiplier = 1;
+reviveForceRespawnDelay = 300;
+reviveDelay = 180;
+reviveBleedOutDelay = 900;
+showHUD = 0;
+disableChannels[] = {{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,false},{5,true,false}};
+enableItemsDropping = 1;
+author = "Midnight";
+onLoadName = "Arma - Survival Extended";
+overViewText = "An extension to the generic survival gamemodes. Extremely challenging and rewarding. Battle against other players on the brand new island Malden.";
+skipLobby = 1;
+enableDebugConsole = 1;
+corpseManagerMode = 1;
+corpseLimit = 1;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 120;
+wreckManagerMode = 1;
+wreckLimit = 1;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 120;
+minPlayerDistance = 750;
+saving = 0;
+disabledAI = 1;
+
+class CfgDebriefing 
+{
+	class ese 
+	{
+		title = "Server reset due to error";
+		description = "Difficulty settings are invalid";
+		picture = "";
+
+	};
+};
+

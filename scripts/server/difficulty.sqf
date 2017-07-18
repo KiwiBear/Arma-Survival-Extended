@@ -1,0 +1,1 @@
+if(difficulty <= 2) exitWith {"ese" call bis_fnc_endMissionServer;};
