@@ -1,1 +1,1 @@
-if(difficulty <= 2) exitWith {"ese" call bis_fnc_endMissionServer;};
+if(difficulty <= 2) exitWith {"ese" call bis_fnc_endMissionServer; diag_log format["%1 has exited due to a invalid difficulty which is restricted for ASW",serverName];};
